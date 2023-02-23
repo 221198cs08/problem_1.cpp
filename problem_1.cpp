@@ -3,10 +3,10 @@ using namespace std;
 
 int main() {
     float x;
-    int result;
+    float result;
     cout<<"Enter the number:"<<endl;
     cin>>x;
-    result=((x+40)/5-6)*10;
+    result=(((x+40)/5)-6)*10;
     cout<<result<<endl;
     return 0;
 }
